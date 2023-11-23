@@ -3,7 +3,7 @@ body {
   background: var(--c-dark1);
   color: var(--c-white);
 }
-html{
+html {
   scroll-behavior: smooth;
   font-size: 1px;
   font-size: calc(0.6px + 0.4 * ((100vw - 320px) / (1440 - 320)));
@@ -12,7 +12,6 @@ html{
   }
 }
 html._overflow {
-  
   overflow: hidden;
 
   body {
@@ -55,6 +54,12 @@ section {
   }
 }
 
+@include mobile {
+  .wow {
+    visibility: visible;
+    animation-name: none;
+  }
+}
 
 .title {
   margin-top: 90rem;

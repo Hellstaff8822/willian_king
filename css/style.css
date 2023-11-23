@@ -221,6 +221,13 @@ section {
   background: #d48902;
 }
 
+@media (max-width: 576px) {
+  .wow {
+    visibility: visible;
+    -webkit-animation-name: none;
+            animation-name: none;
+  }
+}
 .title {
   margin-top: 90rem;
   font-size: 44rem;
