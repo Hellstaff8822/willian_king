@@ -429,6 +429,11 @@ section {
   font-weight: 700;
   margin-bottom: 24rem;
 }
+@media (max-width: 576px) {
+  .welcome__title {
+    font-size: 80rem;
+  }
+}
 .welcome__roles {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -925,7 +930,7 @@ swiper-slide img:hover {
 }
 @media (max-width: 576px) {
   .touch_name {
-    min-width: 345rem;
+    min-width: 500rem;
   }
 }
 .touch_email {
@@ -956,7 +961,7 @@ swiper-slide img:hover {
 }
 @media (max-width: 576px) {
   .touch_email {
-    min-width: 345rem;
+    min-width: 500rem;
   }
 }
 .touch__form {
@@ -1019,7 +1024,7 @@ swiper-slide img:hover {
 }
 @media (max-width: 576px) {
   .touch__text {
-    min-width: 345rem;
+    min-width: 500rem;
   }
 }
 

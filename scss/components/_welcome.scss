@@ -24,14 +24,9 @@
     font-size: 92rem;
     font-weight: 700;
     margin-bottom: 24rem;
-
-    // @include desktop-small {
-    //   font-size: 50rem;
-    // }
-
-    // @include mobile {
-    //   font-size: 32rem;
-    // }
+    @include mobile {
+      font-size: 80rem;
+    }
   }
 
   &__roles {
