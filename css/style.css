@@ -142,15 +142,15 @@ ul {
 
 :root {
   --ff: "Rubik", sans-serif;
-  --transition: .2s all ease-in-out;
-  --c-primary: #ED9902;
+  --transition: 0.2s all ease-in-out;
+  --c-primary: #ed9902;
   --c-white: #fff;
-  --c-dark1: #21201E;
-  --c-dark2: #2D2B29;
-  --c-body: #9B968B;
-  --swiper-navigation-color: #ED9902;
-  --swiper-pagination-bullet-inactive-color: #ED9902;
-  --swiper-pagination-bullet-inactive-opacity: .6;
+  --c-dark1: #21201e;
+  --c-dark2: #2d2b29;
+  --c-body: #9b968b;
+  --swiper-navigation-color: #ed9902;
+  --swiper-pagination-bullet-inactive-color: #ed9902;
+  --swiper-pagination-bullet-inactive-opacity: 0.6;
   --swiper-navigation-size: 20rem;
   --swiper-pagination-bullet-horizontal-gap: 15rem;
   --swiper-pagination-bullet-width: 15rem;
